@@ -31,7 +31,7 @@ body {
     &__logo {
         display: flex;
         align-items: center;
-        width: 100px;
+        width: 150px;
         height: 50px;
 
         img {
@@ -148,7 +148,7 @@ body {
     z-index: 10;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 769px) {
     .header {
         &__right {
             position: fixed;
